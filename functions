@@ -1,0 +1,14 @@
+<script>
+//Vf^2=Vi^2+2ad (find final velocity)     
+    function finalVelocity(veloIn,accel,dist){  
+  var veloSq = veloIn * veloIn; 
+   var accelT2 =  accel * 2;  
+  var distFin = accelT2 * dist; 
+   var finAnsw = veloSq + distFin;
+        console.log("the final velocity is: " + finAnsw);  
+    }
+   var veloIn = prompt("what is the velocity"); 
+    var accel = prompt("what is the acceleration"); 
+    var dist = prompt("what is the distance"); 
+  finalVelocity(veloIn,accel,dist);
+</script>

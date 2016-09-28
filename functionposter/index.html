@@ -1,0 +1,24 @@
+<script> 
+ // find the amount of intrest somone would have to pay on a loan 
+  // step 1 establish a variable for amount of money being borrowed and set it equal to a prompt  
+  // step 2 establish a variable for intrest rate and set it eqaul  to a prompt 
+  // step 3 establish a variable for how many months and set it equal to a variable 
+  // step 4 set up a function that multiplys the loan by the intrest 
+  // step 5 divide the intest rate by 100
+  // step 6 multiply the amount of intrest by how many months thier are 
+   // step 7 add the orignal loan to the final intrest level 
+   // step 8 set an alert which shows the total cost and intrest 
+  // step 9 call function 
+    var loanAmnt = prompt("How much money did you take out?"); //problem? 
+    var intrstRt = prompt("What is the intrest rate? % "); 
+    var numMonth = prompt("How long will it take you to pay off your loan? Months "); 
+    function calcIntrst() { 
+     var mtRdy = intrstRt/100; 
+    var iPm = loanAmnt*mtRdy;
+    var fIn = iPm * numMonth; //problem?
+    var finCost = fIn + loanAmnt; //problem?
+     alert( " Your intrest is " + fIn + "."); 
+     alert ( " Your total cost is " + finCost + "."); //problem?
+    }
+   calcIntrst();  
+</script> 

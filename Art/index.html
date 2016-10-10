@@ -1,0 +1,102 @@
+<html>
+<head></head>
+<body>
+Albert Chubac modern art
+<canvas id="myCanvas" width= "750" height= "750"></canvas> 
+<script> 
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+//first square
+ctx.save();
+ctx.rotate(0.2);    
+//  
+ctx.strokeStyle="yellow";
+ctx.fillStyle="yellow"; 
+ctx.rect(425,50,90,90);
+ctx.fill();
+ctx.closePath();
+//
+ctx.restore();    
+//2nd row
+ctx.save(); 
+ctx.rotate(0.2); 
+    ctx.beginPath();
+ctx.strokeStyle="blue"; 
+ctx.fillStyle="blue"; 
+ctx.rect(500,150,90,90)
+ctx.fill();
+//
+ctx.restore(); 
+ctx.closePath(); 
+// 
+    ctx.save(); 
+ctx.rotate(0.3); 
+ctx.beginPath(); 
+ctx.strokeStyle="blue"; 
+ctx.fillStyle="blue"; 
+ctx.rect(375,125,90,90) 
+ctx.fill(); 
+ctx.restore(); 
+ctx.closePath(); 
+// 3rd row
+ctx.save(); 
+    ctx.rotate(0.2);
+ctx.beginPath(); 
+ctx.stokeStyle="blue"; 
+ctx.fillStyle="blue"; 
+ctx.rect(575,250,90,90)
+ctx.fill(); 
+ctx.restore(); 
+ctx.closePath(); 
+// 
+ctx.save(); 
+ctx.rotate(0.2); 
+ctx.beginPath(); 
+ctx.strokesStyle="yellow"; 
+ ctx.fillStyle="yellow"; 
+  ctx.rect(450,275,90,90)
+  ctx.fill();
+ctx.restore(); 
+ctx.closePath(); 
+//
+ ctx.save();
+ ctx.rotate(0.4)
+ctx.beginPath(); 
+ctx.strokeStyle="red"; 
+ctx.fillStyle="red"; 
+ctx.rect(375,200,90,90)
+ctx.fill(); 
+ ctx.restore(); 
+ctx.closePath(); 
+    
+//fourth row 
+ctx.save(); 
+ctx.rotate(0.5); 
+ctx.beginPath(); 
+ctx.strokeStyle="red";  
+ctx.fillStyle="red";
+ctx.rect(650,165,90,90)    
+ctx.fill();
+ctx.restore(); 
+ctx.closePath(); 
+//
+ctx.save(); 
+ctx.rotate(0.3)
+ctx.beginPath(); 
+ctx.stokeStyle="blue"; 
+ctx.fillStyle="blue"; 
+ctx.rect(435,350,90,90)
+ctx.fill(); 
+ctx.restore(); 
+ctx.closePath(); 
+// rectangle 
+ctx.beginPath(); 
+ctx.strokeStyle="blue"; 
+ctx.fillStyle="blue"; 
+ctx.rect(225,600,420,90)
+ctx.fill(); 
+ctx.closePath();     
+</script>
+</body>
+</html> 
